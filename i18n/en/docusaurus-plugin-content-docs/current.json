@@ -1,0 +1,14 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Intégration du système Shopping Party": {
+    "message": "Shopping Party Integration",
+    "description": "The label for category Intégration du système Shopping Party in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Intégration du système \n Personal Shopper": {
+    "message": "Personal Shopper Integration",
+    "description": "The label for category Intégration du système \n Personal Shopper in sidebar tutorialSidebar"
+  }
+}

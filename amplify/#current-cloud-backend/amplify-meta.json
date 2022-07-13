@@ -1,0 +1,15 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-bleekerdoc-doc-204205-authRole",
+      "UnauthRoleArn": "arn:aws:iam::049293346975:role/amplify-bleekerdoc-doc-204205-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::049293346975:role/amplify-bleekerdoc-doc-204205-authRole",
+      "Region": "eu-west-2",
+      "DeploymentBucketName": "amplify-bleekerdoc-doc-204205-deployment",
+      "UnauthRoleName": "amplify-bleekerdoc-doc-204205-unauthRole",
+      "StackName": "amplify-bleekerdoc-doc-204205",
+      "StackId": "arn:aws:cloudformation:eu-west-2:049293346975:stack/amplify-bleekerdoc-doc-204205/54fdcee0-0212-11ed-b15a-0ab265feeb80",
+      "AmplifyAppId": "d74r0vsiu01dr"
+    }
+  }
+}

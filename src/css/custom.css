@@ -1,0 +1,81 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #0042aa;
+  --ifm-color-primary-dark: #003b99;
+  --ifm-color-primary-darker: #003890;
+  --ifm-color-primary-darkest: #002e77;
+  --ifm-color-primary-light: #0049bb;
+  --ifm-color-primary-lighter: #004cc3;
+  --ifm-color-primary-lightest: #0056dd;
+  --ifm-menu-color: black;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #ff6a00;
+  --ifm-color-primary-dark: #e65f00;
+  --ifm-color-primary-darker: #d95a00;
+  --ifm-color-primary-darkest: #b34a00;
+  --ifm-color-primary-light: #ff791a;
+  --ifm-color-primary-lighter: #ff8026;
+  --ifm-color-primary-lightest: #ff974d;
+  --ifm-menu-color: white;
+}
+
+@font-face {
+  font-family: 'Albert Sans', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Albert+Sans&display=swap');
+}
+
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+}
+
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&display=swap');
+}
+
+p {
+  font-family: 'Albert Sans', sans-serif;
+}
+
+.theme-doc-markdown {
+  padding: 1em;
+  word-spacing: 0.15em;
+}
+
+.theme-doc-markdown p {
+  margin-bottom: 2em;
+}
+
+.theme-doc-markdown img {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  max-width: 450px;
+  border: 0px solid black;
+  box-shadow: 10px 10px 5px #ccc;
+}
+
+.navbar__title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: larger;
+}
+
+.menu__link--sublist {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: var(--ifm-menu-color); 
+}
+
+.dsla-search-wrapper {
+  width: 200px;
+}
+
